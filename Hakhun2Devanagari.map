@@ -1,0 +1,92 @@
+﻿; This file was created by <author> using TECkitMappingEditorU.exe v4.0.0.0 on 13-06-2017.
+;   Conversion Type = Unicode_to_from_Unicode
+;   Left-hand side font = Charis SIL;15.75
+;   Right-hand side font = Mangal;11.25
+;   Main Window Position = 0,0,658,712
+;   Left-hand side Character Map Window Position = 658,0,457,446
+;   Right-hand side Character Map Window Position = 717,251,579,455
+
+LHSName                 "Hakhun Roman"
+RHSName                 "Hakhun Devanagari"
+LHSDescription          "Hakhun in Latin (Roman) Orthography"
+RHSDescription          "Hakhun in Devanagari Orthography"
+Version                 "0.1"
+Contact                 "mailto:sumy_mathew@nlife.in"
+RegistrationAuthority   "New Life Computer Institute"
+RegistrationName        "NLCI-Hakhun2Devanagari"
+Copyright               "© 2017 <NLCI>. CC-BY-SA."
+LHSFlags                ()
+RHSFlags                ()
+
+pass(Unicode)
+; type a 'k' in the 'Left-side Sample' box below to see how this works.
+class[cons] = ("b" "c" "d" "f" "g" "h" "j" "k" "l" "m" "n" "p" \
+               "q" "r" "s" "t" "v" "w" "x" "y" "z" "B" "C" "D" \
+               "F" "G" "H" "J" "K" "L" "M" "N" "P" "Q" "R" "S" \
+               "T" "V" "W" "X" "Y" "Z")
+
+class[vow] = ("E" "I" "O"  "U" "e" "i" "o"  "u")
+class[matra] = ("े" "ि" "ो" "ु" "े" "ि" "ो" "ु")
+class[Aa] = ("A" "a")
+
+[vow] / [cons] _ > [matra]
+[Aa] / [cons] _ > ""
+
+"ü" > "ॅ"
+"ā" > "ा"
+"ȧ" > 
+"Ü" > "ॅ"
+"a" > "अ"
+"b" > "ब"
+"c" > "च"
+"d" > "ड"
+"e" > "ऎ"
+"f" > "फ"
+"g" > "ग"
+"h" > "ह"
+"i" > "इ"
+"j" > "य"
+"k" > "क"
+"l" > "ल"
+"m" > "म"
+"n" > "न"
+"o" > "ऒ"
+"p" > "प"
+"q" > "'"
+"r" > "र"
+"s" > "स"
+"t" > "ट"
+"u" > "उ"
+"v" > "व"
+"w" > "व"
+"x" > 
+"y" > "य"
+"z" > 
+"A" > "अ"
+"B" > "ब"
+"C" > "च"
+"D" > "ड"
+"E" > "ऎ"
+"F" > "फ"
+"G" > "ग"
+"H" > "ह"
+"I" > "इ"
+"J" > "य"
+"K" > "क"
+"L" > "ल"
+"M" > "म"
+"N" > "न"
+"O" > "ऒ"
+"P" > "प"
+"Q" > "'"
+"R" > "र"
+"S" > "स"
+"T" > "ट"
+"U" > "उ"
+"V" > "व"
+"W" > "व"
+"X" > 
+"Y" > "य"
+"Z" > 
+
+
