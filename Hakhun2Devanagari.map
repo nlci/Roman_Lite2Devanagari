@@ -30,7 +30,7 @@ class[matra] = ("े" "ि" "ो" "ु" "े" "ि" "ो" "ु")
 class[Aa] = ("A" "a")
 
 [vow] / [cons] _ > [matra]
-[Aa] / [cons] _ > ""
+[Aa] / [cons] _ > "ऽ"
 
 "ü" > "ॅ"
 "ā" > "ा"
