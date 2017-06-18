@@ -1,2 +1,2 @@
-# Roman_Lite2Devanagari
-Transliterate a limited set of Roman Alphabet into Devanagari
+# Latin to Devanagari (Lite Edition)
+Transliterate a limited set of Latin alphabets into Devanagari
