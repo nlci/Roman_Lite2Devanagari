@@ -6,20 +6,19 @@
 ;   Left-hand side Character Map Window Position = 658,0,457,446
 ;   Right-hand side Character Map Window Position = 717,251,579,455
 
-LHSName                 "Hakhun Roman"
-RHSName                 "Hakhun Devanagari"
-LHSDescription          "Hakhun in Latin (Roman) Orthography"
-RHSDescription          "Hakhun in Devanagari Orthography"
+LHSName                 "Latin Lite"
+RHSName                 "Devanagari"
+LHSDescription          "Chars in Latin (Roman) Orthography"
+RHSDescription          "Chars in Devanagari Orthography"
 Version                 "0.1"
 Contact                 "mailto:sumy_mathew@nlife.in"
 RegistrationAuthority   "New Life Computer Institute"
-RegistrationName        "NLCI-Hakhun2Devanagari"
+RegistrationName        "translit-lat2dev-lite"
 Copyright               "© 2017 <NLCI>. CC-BY-SA."
 LHSFlags                ()
 RHSFlags                ()
 
 pass(Unicode)
-; type a 'k' in the 'Left-side Sample' box below to see how this works.
 class[cons] = ("b" "c" "d" "f" "g" "h" "j" "k" "l" "m" "n" "p" \
                "q" "r" "s" "t" "v" "w" "x" "y" "z" "B" "C" "D" \
                "F" "G" "H" "J" "K" "L" "M" "N" "P" "Q" "R" "S" \
